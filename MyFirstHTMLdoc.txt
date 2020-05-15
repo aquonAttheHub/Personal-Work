@@ -1,0 +1,399 @@
+<html>
+	<head>
+		<title>My First HTML Document</title>
+	</head>
+	<body bgcolor = "#85C1E9">
+	<img src = "HTML5Logo.jpg" height = "150px" width = "150px"/>
+	<img src = "SoloLearn.jpg" height = "150px" width = "150px"/>
+	<img src = "JavaLogo.jpg" height = "150px" width = 150px"/>
+	<img src = "pythonLogo.jpg" height = "150px" width = 150px"/>
+	<img src = "R-programmingLogo.jpg" height = "150px" width = 170px"/>
+	<img src = "sqlLogo.jpg" height = "150px" width = 170px"/>
+	<img src = "LispLogo.jpg" height = "150px" width = 150px"/>
+	<img src = "JuliaLogo.
+	<h2>Heading 1</h2>
+	<p>This is my first paragraph for this document. I hope I can continue learning<br/>
+	HTML. So far, I have learned basic characteristics of HTML, such as opening and <br/>
+	closing tags, special tags, elements, and attributes to provide additional <br/>
+	information about HTML tags. Below are additional notes that I took down from<br/>
+	the mobile app SoloLearn so that I can retain the information for even more <br/>
+	sophisticated learning of HTML.</p>
+	<hr width = "50%" align = "center"/>
+	 
+	<h2>Attributes</h2>
+	<p>Attributes in the HTML language provide additional information about an element <br/>
+	or a tag, while also modifying them. The value, if provided, modifies the atribute.<br/>
+	For example, the value "center" indicates that the paragraph within the p elements <br/>
+	should be positioned in the center. In another exampe, measurements in pixels and <br/>
+	percentages can also be used inside the hr tag using the px and % indicators to <br/>
+	change the length of a horizontal line. Moreover, mutiple attributes can be typed<br/>
+	within a tag.</p>
+	
+	<h2>Images</h2>
+	<p>The img tag is used to place an image into an html document. It only has<br/>
+	attributes and is devoid of a closing tag. The image's URL can be defined using<br/>
+	the src attribute. To define the size of the image, use the height and width<br/>
+	attributes, values can be specified in pixels or as percentages. In addition, <br/>
+	the border attribute can be used to add a border depending on the px value.</p>
+
+	<h2>Links</h2>
+	<p>You can add links through the a tag. The href attribute will define the link's<br/>
+	destination address. To link an image to another document, nest the img tag inside <br/>
+	the a tags. To have the linked document open in a new tab/window, use the "_blank" <br/>
+	value after the target attribute. The link to SoloLearn is below.</p>
+
+	<a href = "https://www.sololearn.com">Go to SoloLearn</a>
+
+	<h2>Lists</h2>
+	<p>Ordered lists start with the ol tag, and each item is defined by the li tag.<br/>
+	Below is an example of an ordered list.</p>
+	<ol>
+		<li>Apples</li>
+		<li>Oranges</li>
+		<li>Bananas</li>
+		<li>Grapes</li>
+	</ol>
+	<p>Unordered lists start with the ul tag. Instead of numbers, each item will <br/>
+	be marked by a bullet.<br/>
+	Below is an example of an unordered list.</p>
+	<ul>
+		<li>Dogs</li>
+		<li>Cats</li>
+		<li>Monkeys</li>
+		<li>Fishes</li>
+	</ul>
+	
+	<h2>Tables</h2>
+	<p>In HTML, tables are defined by the table tag. Tables are divided into rows with<br/>
+	the tr tag. Moreover, columns can be created out of rows by the td tag. Note that<br/>
+	columns are also called table data, which can contain all kinds of HTML contents,<br/>
+	including text, images, lists, and even other tables.</p>
+	<p>Below is an example of a table with 2 columns and 5 rows.</p>
+	<table>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+	</table>
+	<p>To make the table for defined, a border can be drawn using the border attribute.</p>
+	<table border = "2px">
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+		<tr>
+			<td>Color</td>
+			<td>Color</td>
+		</tr>
+	</table>
+	<p>A table cell can also be expanded to more than one column</p>
+	<table border = "3px">
+		<tr>
+			<td bgcolor = "red"><font color = "white">Red</font></td>
+			<td bgcolor = "blue"><font color = "white">Blue</font></td>
+			<td bgcolor = "green"><font color = "white">Green</font></td>
+		</tr>
+		<tr>
+			<td bgcolor = "purple"><font color = "white">Purple</font></td>
+			<td colspan = "2" bgcolor = "orange"><font color = "white">Orange</font></td>
+		</tr>
+	</table>
+	<p>Below is a table of useful links.</p>
+	<table border = "2x">
+		<tr>
+			<td><font color = "green">An Inspiring Story Regarding Machine Learning</font></td>
+			<td><a href = "https://www.codementor.io/coderkovid/how-i-learned-machine-learning-tcsjk979a">Go to Story</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Machine Learning vs. Statistics</font></td>
+			<td><a href = "https://towardsdatascience.com/the-actual-difference-between-statistics-and-machine-learning-64b49f07ea3">Read the Difference</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Hottest Jobs in DS and Machine Learning/AI</font></td>
+			<td><a href = "https://www.analyticsindiamag.com/5-hottest-jobs-in-data-science-machine-learning-and-artificial-intelligence-today/">See List</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Prehistory of AI</font></td>
+			<td><a href = "https://www.knowmail.me/blog/prehistory-artificial-intelligence/">Read Article</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Trends in AI</font></td>
+			<td><a href = "https://www.aitrends.com/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Guide to AI</font></td>
+			<td><a href = "https://in.pinterest.com/ArtibaAi/career-guide-in-artificial-intelligence/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Blogs about AI</font></td>
+			<td><a href = "https://openai.com/blog/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Blogs about Machine Learning</font></td>
+			<td><a href = "https://machinelearningmastery.com/blog/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">AI news</font></td>
+			<td><a href = "https://www.artificial-intelligence.blog/news/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">AI in Google</font></td>
+			<td><a href = "https://ai.google/research">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Urban Hotbeds for Machine Learning</font></td>
+			<td><a href = "https://insights.dice.com/2018/08/27/cities-hiring-most-a-i-machine-learning-experts/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Good News for AI Jobseekers</font></td>
+			<td><a href = "https://medium.com/datadriveninvestor/good-news-for-job-seekers-with-ai-skills-there-is-a-shortage-of-talent-e127ae4fcb35">Click to Learn/Review</a></td>
+		</tr>			
+		<tr>
+			<td><font color = "green">Getting Started with Machine Learning</font></td>
+			<td><a href = "https://www.freecodecamp.org/news/how-to-get-started-with-machine-learning-in-less-than-10-minutes-b5ea68462d23/">Get Started</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Math Resources</font></td>
+			<td><a href = "https://www.youtube.com/watch?v=VgP7L69YuT4&list=PL5E46D91C0B8EA957&index=4">Click to Learn/Review</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Hone your STEM skills with Brilliant.org</font></td>
+			<td><a href = "https://brilliant.org/">Click to Learn/Review</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">How Math Can Teach Us About Future of AI</font></td>
+			<td><a href = "https://blogs.scientificamerican.com/observations/what-the-history-of-math-can-teach-us-about-the-future-of-ai/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Important Details about beginning your DS Career</font></td>
+			<td><a href = "https://www.forbes.com/sites/quora/2019/04/22/this-is-what-you-should-know-at-the-beginning-of-your-career-in-data-science/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Top 10 Cities in the World for Data Scientists</font></td>
+			<td><a href = "https://www.analyticsindiamag.com/top-10-cities-across-the-globe-with-the-highest-pay-packages-for-data-scientists/">Click to Learn/Review</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Python Basics Cheat Sheet</font></td>
+			<td><a href = "https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf">Click to Learn/Review</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Java Basics Cheat Sheet</font></td>
+			<td><a href = "https://www.ktbyte.com/resources/dist/assets/pdf/KTBYTEJavaCheatSheet.pdf">Click to Learn/Review</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">The Basic SQL Idea</font></td>
+			<td><a href = "https://www.youtube.com/watch?v=bEtnYWuo2Bw">Click to Watch</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Example Programs</font></td>
+			<td><a href = "http://192.168.1.74/NAS/sheet__cs61.html">Click to View</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Machine Learning Skillset for Various Industries</font></td>
+			<td><a href = "https://docs.google.com/document/d/1uBrqeLMOYQDFRPSpdJPcGPbQmAkBltOgmEYykJ0b9MY/edit">Click to View</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">The Path of Computer Vision Engineers</font></td>
+			<td><a href = "https://www.reddit.com/r/computervision/comments/6ll7lb/computer_vision_engineers_what_do_you_do_to/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Programming Languages in High Demand</font></td>
+			<td><a href = "https://www.zdnet.com/article/tech-jobs-python-programming-language-and-aws-skills-demand-has-exploded/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Python Periodic Table Project</font></td>
+			<td><a href = "https://stemcreative.wordpress.com/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">SQL Page from CS61A Website</font></td>
+			<td><a href = "http://composingprograms.com/pages/43-declarative-programming.html">Click to Review</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Techniques in Computer Science</font></td>
+			<td><a href = "https://sequoia-tree.github.io/">Click to Study</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">How to Build a Career in AI</font></td>
+			<td><a href = "https://www.simplilearn.com/how-to-build-career-in-ai-and-machine-learning-article">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Machine Learning Engineer vs Data Scientist</font></td>
+			<td><a href = "https://www.edureka.co/blog/machine-learning-engineer-vs-data-scientists/"> Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Skills Needed to Become a Machine Learning Engineer (from Udacity)</font></td>
+			<td><a href = "https://blog.udacity.com/2016/04/5-skills-you-need-to-become-a-machine-learning-engineer.html"?Click to Read</a></td>
+		
+		</tr>
+		<tr>
+			<td><font color = "green">Embarking on a Machine Learning Career</font></td>
+			<td><a href = "https://www.simplilearn.com/machine-learning-career-path-article">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Applications of Multivariate Calculus in Data Science</font></td>
+			<td><a href = "https://medium.com/@rathi.ankit/multivariate-calculus-for-data-science-abccf47fce0f">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Machine Learning Job Description from Addepto</font></td>
+			<td><a href = "https://addepto.com/machine-learning-specialist-job-description/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">A Brief Intro to Computer Vision</font></td>
+			<td><a href = "https://machinelearningmastery.com/what-is-computer-vision/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">9 Steps to Achieving Flow</font></td>
+			<td><a href = "https://zenhabits.net/guide-to-achieving-flow-and-happiness-in-your-work/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">What You Need to Know for Embarking on a Machine Learning Career</font></td>
+			<td><a href = "https://www.simplilearn.com/machine-learning-career-path-article">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green"> "The Year in Math and Computer Science" from the Quanta Magazine</font></td>
+			<td><a href = "https://www.quantamagazine.org/quantas-year-in-math-and-computer-science-2019-20191223/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green"> "Hilfinger's CS61B Website"</font></td>
+			<td><a href = "https://inst.eecs.berkeley.edu/~cs61b/fa19/">Click to View</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"AI Outperforms Experts in Detecting Breast Cancer"</font></td>
+			<td><a href = "https://www.theguardian.com/society/2020/jan/01/ai-system-outperforms-experts-in-spotting-breast-cancer">Click to View</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"10 Companies Using Machine Learning"</font></td>
+			<td><a href = "https://www.wordstream.com/blog/ws/2017/07/28/machine-learning-applications">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Essential Math for Data Science: Why and How"</font></td>
+			<td><a href = "https://www.kdnuggets.com/2018/09/essential-math-data-science.html">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Statistical Modeling vs Machine Learning"</font></td>
+			<td><a href = "https://www.kdnuggets.com/2019/08/statistical-modelling-vs-machine-learning.html">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"6 Steps to Write Any Machine Learning Algorithm from Scratch"</font></td>
+			<td><a href = "https://www.kdnuggets.com/2018/09/6-steps-write-machine-learning-algorithm.html">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"The Dollars Attached to a Career in Data Science"</font></td>
+			<td><a href = "https://datascience.berkeley.edu/blog/data-scientist-salary/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"The Difference between Machine Learning and Deep Learning"</font></td>
+			<td><a href = "https://www.infoworld.com/article/3512245/deep-learning-vs-machine-learning-understand-the-differences.html">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"See how Algorithms in Computer Science and Programming are built around Mathematics"</font></td>
+			<td><a href = "https://scitechdaily.com/using-mathematical-theory-to-find-the-true-potential-of-algorithms/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Guide to Feature Engineering in Python"</font></td>
+			<td><a href = "https://heartbeat.fritz.ai/a-practical-guide-to-feature-engineering-in-python-8326e40747c8">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Alexander Paulin's Linear Algebra Guide"</font></td>
+			<td><a href = "https://math.berkeley.edu/~apaulin/54_001(Spring2018).html">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Peyam's Linear Algebra Website"</font></td>
+			<td><a href = "https://math.berkeley.edu/~peyam/Math54Sp15.html">Click to View</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Learning Path to Master Computer Vision"</font></td>
+			<td><a href = "https://www.analyticsvidhya.com/blog/2020/01/computer-vision-learning-path-2020/">Click to View</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Using Python to Write Better Stories"</font></td>
+			<td><a href = "https://towardsdatascience.com/write-better-stories-with-this-python-tool-ad1371158822">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Chasnov's PDF on Differential Equations"</font></td>
+			<td><a href = "https://www.math.ust.hk/~machas/differential-equations.pdf">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">"Guide to Unix"</font></td>
+			<td><a href = "https://astrobiomike.github.io/unix/unix-intro">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Top 10 Machine Learning Courses for 2020</font></td>
+			<td><a href = "https://www.analyticsinsight.net/top-10-machine-learning-courses-for-2020/">Click to View</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Why Computer Scientist Students are A+ Problem Solvers</font></td>
+			<td><a href = "https://www.noodle.com/articles/masters-in-computer-science-problem-solving-soft-skills">Click to Read</a></td> 
+		</tr>
+		<tr>
+			<td><font color = "green">2020: The Year of Automated Machine Learning</font></td>
+			<td><a href = "https://www.gigabitmagazine.com/ai/why-2020-will-be-year-automated-machine-learning">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Get the Latest AI News</font></td>
+			<td><a href = "https://ainews.page/learning-ml">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Jetson Nano from Nvidia</font></td>
+			<td><a href = "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">ML Engineer Salary: Compared to that of DS and SWE</font></td>
+			<td><a href = "https://toughnickel.com/industries/Machine-Learning-Engineer-Salary-Compared-to-Data-Science-Software-Engineering">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">11 DS Careers Shaping the Future</font></td>
+			<td><a href = "https://www.northeastern.edu/graduate/blog/data-science-careers-shaping-our-future/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Data Science in Times of Crisis</font></td>
+			<td><a href = "https://dcist.com/story/20/03/27/american-university-student-partners-with-data-scientist-to-launch-coronavirus-resource-app/">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">What A Post-Pandemic World Would Look Like</font></td>
+			<td><a href = "https://finance.yahoo.com/news/what-will-everything-look-like-after-the-coronavirus-120021163.html">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">Big Data at Berkeley</font></td>
+			<td><a href = "https://bd.berkeley.edu/index.html#whatwedo">Click to Read</a></td>
+		</tr>
+		<tr>
+			<td><font color = "green">25 Tech Trends That Will Define The Next Decade</font></td>
+			<td><a href = "https://www.forbes.com/sites/bernardmarr/2020/04/20/these-25-technology-trends-will-define-the-next-decade/#7ddbd84029e3">Click to Read</a></td>
+		</tr>
+	</table>
+
+	
+
+	<sub>This page was last modified on 4/02/2020 4:13 PM</sub>
+	<!-Last modified 4/02/2020 4:13 PM-->
+	</body>
+</html>
