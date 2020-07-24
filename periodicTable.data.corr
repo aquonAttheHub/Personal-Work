@@ -1,0 +1,54 @@
+1,1,1A,Alkaline Metal,1
+1,18,8A,Noble Gas,2
+2,1,1A,Alkaline Metal,3
+2,2,2A,Alkaline Earth Metal,4
+2,13,3A,Transition Metal,5
+2,14,4A,Carbon Family,6
+2,15,5A,Nitrogen Family,7
+2,16,6A,Oxygen Family,8
+2,17,7A,Halogen,9
+2,18,8A,Noble Gas,10
+3,1,1A,Alkaline Metal,11
+3,2,2A,Alkaline Earth Metal,12
+3,13,3A,Transition Metal,13
+3,14,4A,Carbon Family,14
+3,15,5A,Nitrogen Family,15
+3,16,6A,Oxygen Family,16
+3,17,7A,Halogen,17
+3,18,8A,Noble Gas,18
+4,1,1A,Alkaline Metal,19
+4,2,2A,Alkaline Earth Metal,20
+4,3,3B,Transition Metal,21
+4,4,4B,Transition Metal,22
+4,5,5B,Transition Metal,23
+4,6,6B,Transition Metal,24
+4,7,7B,Transition Metal,25
+4,8,8B,Transition Metal,26
+4,8,8B,Transition Metal,27
+4,8,8B,Transition Metal,28
+4,11,1B,Transition Metal,29
+4,12,2B,Transition Metal,30
+4,13,3A,Transition Metal,31
+4,14,4A,Carbon Family,32
+4,15,5A,Nitrogen Family,33
+4,16,6A,Oxygen Family,34
+4,17,7A,Halogen,35
+4,18,8A,Noble Gas,36
+5,1,1A,Alkaline Metal,37
+5,2,2A,Alkaline Earth Metal,38
+5,3,3B,Transition Metal,39
+5,4,4B,Transition Metal,40
+5,5,5B,Transition Metal,41
+5,6,6B,Transition Metal,42
+5,7,7B,Transition Metal,43
+5,8,8B,Transition Metal,44
+5,8,8B,Transition Metal,45
+5,8,8B,Transition Metal,46
+5,11,1B,Transition Metal,47
+5,12,2B,Transition Metal,48
+5,13,3A,Transition Metal,49
+5,14,4A,Carbon Family,50
+5,15,5A,Nitrogen Family,51
+5,16,6A,Oxygen Family,52
+5,17,7A,Halogen,53
+5,18,8A,Noble Gas,54
